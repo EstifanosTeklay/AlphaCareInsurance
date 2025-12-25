@@ -17,10 +17,6 @@ This project addresses:
 - Claims prediction at policy and location level
 - Premium optimization using machine learning
 - Identification of key risk and pricing drivers
-- Product design and pricing recommendations
-
----
-
 ## 📊 Dataset Overview
 
 The dataset contains over **618,000 insurance policy records**, including:
@@ -34,11 +30,7 @@ The dataset contains over **618,000 insurance policy records**, including:
 Target variables:
 - `TotalClaims`
 - `TotalPremium`
-
----
-
 ## 🔧 Methodology
-
 1. **Data Cleaning & Preparation**
    - Missing value treatment
    - Feature engineering (vehicle age, power ratios, loss metrics)
@@ -59,8 +51,6 @@ Target variables:
    - Tree-based feature importance
    - Business interpretation of drivers
 
----
-
 ## 🤖 Models Implemented
 
 | Model              | Purpose |
@@ -71,30 +61,62 @@ Target variables:
 
 XGBoost delivered the best performance for both claims and premium prediction.
 
----
-
 ## 📈 Key Findings
 
 - Tree-based models significantly outperform linear regression
 - Premium is strongly influenced by:
   - Sum insured
-  - Vehicle age and power
-  - Coverage type and excess selection
+  - CalculatedPremiumPerTerm
+  - TransactionMonthNum
 - Claims risk is heavily affected by:
   - Vehicle age
   - Geographic risk (CRESTA zones, postal codes)
   - Coverage structure
-
----
-
 ## 💡 Business Recommendations
-
 - Introduce risk-adjusted pricing using vehicle age and power metrics
 - Enhance location-based pricing granularity
 - Optimize excess structures to balance affordability and risk
 - Integrate ML-driven pricing into underwriting workflows
-
----
-
 ## 📁 Repository Structure
+├── dvc
+├── github
+│ └── workflows
+├── backup
+├── notebooks/
+│ ├── ACIS_EDA.ipynb
+├── dvcignore
+├── gitignore
+│ └── utils.py
+├── README.md
+└── data.dvc
+
+## ▶️ How to Run the Project
+
+1. Clone the repository
+bash
+git clone https://github.com/EstifanosTeklay/AlphaCareInsurance.git
+2. Install dependencies
+pip install -r requirements.txt
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn
+
+XGBoost
+
+Matplotlib / Seaborn
+
+📌 Disclaimer
+
+This project is for analytical and educational purposes only. All data has
+been anonymized and does not represent real customers.
+
+👤 Author
+
+Estifanos Teklay
+Senior Business Intellegence Analyst | Data Scientist 
 
