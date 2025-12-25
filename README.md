@@ -98,7 +98,7 @@ bash
 git clone https://github.com/EstifanosTeklay/AlphaCareInsurance.git
 2. Install dependencies
 pip install -r requirements.txt
-3. Run notebooks in sequence
+3. Run AcisData.ipynb notebook
 
 🛠️ Tools & Technologies
 
