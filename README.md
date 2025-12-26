@@ -118,7 +118,6 @@ This project is for analytical and educational purposes only. All data has
 been anonymized and does not represent real customers.
 
 👤 Author
-
 Estifanos Teklay
 Senior Business Intellegence Analyst | Data Scientist 
 
