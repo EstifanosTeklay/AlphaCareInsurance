@@ -77,22 +77,7 @@ XGBoost delivered the best performance for both claims and premium prediction.
 - Enhance location-based pricing granularity
 - Optimize excess structures to balance affordability and risk
 - Integrate ML-driven pricing into underwriting workflows
-## 📁 Repository Structure
-
-├── dvc
-├── github
-│ └── workflows
-├── backup
-├── notebooks/
-│ ├── ACIS_EDA.ipynb
-├── dvcignore
-├── gitignore
-│ └── utils.py
-├── README.md
-└── data.dvc
-
 ## ▶️ How to Run the Project
-
 1. Clone the repository
 bash
 git clone https://github.com/EstifanosTeklay/AlphaCareInsurance.git
